@@ -40,17 +40,3 @@ Features
 
 
 == Changelog ==
-
-
-
-
-
-
-
-
-
-
-
-
-
-
