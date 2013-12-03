@@ -47,24 +47,27 @@ var GrpdocsComparisonInsertDialog = {
 				jQuery('#guid_redline').blur(function(){
 					update_sc();
 				});
+        function strip_tags(str){
+            return str.replace(/<\/?[^>]+>/gi, '');
+        };
 		
 		function update_sc() {
 			 shortcode = 'grpdocscomparison';
 
 				if (( jQuery('#guid_redline').val() !=0 ) & ( jQuery('#guid_redline').val() ) !=null) {
-					shortcode = shortcode + '  guid_redline="'+jQuery('#guid_redline').val()+'"';
+					shortcode = shortcode + '  guid_redline="'+strip_tags(jQuery('#guid_redline').val())+'"';
 				} else if ( jQuery('#guid_redline').val() == '' ) {
 					jQuery('#uri-note').html('');
 					shortcode = shortcode + ' guid_redline=""';
 				}
 				if (( jQuery('#guid_embed').val() !=0 ) & ( jQuery('#guid_embed').val() ) !=null) {
-					shortcode = shortcode + '  guid_embed="'+jQuery('#guid_embed').val()+'"';
+					shortcode = shortcode + '  guid_embed="'+strip_tags(jQuery('#guid_embed').val())+'"';
 				}
 				if (( jQuery('#height').val() !=0 ) & ( jQuery('#height').val() ) !=null) {
-					shortcode = shortcode + '  height="'+jQuery('#height').val()+'"';
+					shortcode = shortcode + '  height="'+strip_tags(jQuery('#height').val())+'"';
 				}
 				if (( jQuery('#width').val() !=0 ) & ( jQuery('#width').val() ) !=null) {
-					shortcode = shortcode + '  width="'+jQuery('#width').val()+'"';
+					shortcode = shortcode + '  width="'+strip_tags(jQuery('#width').val())+'"';
 				}
 				 
 				var newsc = shortcode.replace(/  /g,' ');

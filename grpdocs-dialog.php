@@ -55,7 +55,7 @@ error_reporting(E_ALL | E_STRICT);
     <td colspan="2">
     <br />
     Shortcode Preview
-    <textarea name="shortcode" cols="72" rows="2" id="shortcode"></textarea>
+    <textarea name="shortcode" cols="72" rows="3" id="shortcode"></textarea>
     </td>
 	</tr>
    </table>
