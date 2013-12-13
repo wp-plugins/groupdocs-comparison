@@ -46,6 +46,3 @@ Features
 = 1.0.3 =
 
 * Minor security fixes
-
-
-
