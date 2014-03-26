@@ -24,16 +24,6 @@ Increase productivity, engage in multi tasking, and protect documents from unaut
 For more information on GroupDocs' document comparison tool, please visit our website:
 http://groupdocs.com/apps/comparison
 
-
-Features
-
-  * Online document assembly.
-
-  * Share GroupDocs Assembly questionnaires online.
-  
-  * Easy data gathering and document creation.
-
-
 == Installation ==
 
 1. Upload the entire `groupdocs-comparison` folder to the `/wp-content/plugins/` directory.
@@ -46,4 +36,3 @@ Features
 = 1.0.3 =
 
 * Minor security fixes.
-
