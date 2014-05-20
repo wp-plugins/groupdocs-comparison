@@ -6,7 +6,7 @@ Plugin URI: http://www.groupdocs.com/
 Description: Whether you need to compare two word documents, excel spreadsheets or PDF files – GroupDocs Comparison is here to help you. Use it to compare documents online, from within your web browser.
 Author: GroupDocs Team <support@groupdocs.com>
 Author URI: http://www.groupdocs.com/
-Version: 1.0.3
+Version: 1.0.4
 License: GPLv2
 */
 
@@ -27,7 +27,7 @@ function grpdocs_comparison_getdocument($atts) {
     $height = (int) $height;
 
 	$if_no_iframe = 'If you can see this text, your browser does not support iframes. Please enable iframe support in your browser or use the latest version of any popular web browsers such as Mozilla Firefox or Google Chrome.<br />Check out how to easily <a href="http://groupdocs.com/apps/comparison">compare Word documents</a> with GroupDocs!';	
-	$code = '<iframe src="http://apps.groupdocs.com/document-comparison/embed/' . $guid_embed . '/' . $guid_redline . '?referer=wordpress-comparison/1.0.3" frameborder="0" width="'. $width .'" height="'. $height .'">' . $if_no_iframe . '</iframe>';
+	$code = '<iframe src="http://apps.groupdocs.com/document-comparison/embed/' . $guid_embed . '/' . $guid_redline . '?referer=wordpress-comparison/1.0.4" frameborder="0" width="'. $width .'" height="'. $height .'">' . $if_no_iframe . '</iframe>';
 
 	return $code;
 }

@@ -4,7 +4,7 @@ Contributors: GroupDocs Team
 Tags: groupdocs, groupdocs comparison, compare word documents, compare two documents, document comparison tool
 Author URI: http://groupdocs.com
 Requires at least: 2.8
-Tested up to: 3.4.1
+Tested up to: 3.9.1
 Stable tag: trunk
 License: GPLv2
 
@@ -33,6 +33,8 @@ http://groupdocs.com/apps/comparison
 
 == Changelog ==
 
-= 1.0.3 =
+= 1.0.4 =
+* Minor bug fixes (support Wordpress version 3.9)
 
+= 1.0.3 =
 * Minor security fixes.
