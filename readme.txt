@@ -4,7 +4,7 @@ Contributors: GroupDocs Team
 Tags: groupdocs, groupdocs comparison, compare word documents, compare two documents, document comparison tool
 Author URI: http://groupdocs.com
 Requires at least: 2.8
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: trunk
 License: GPLv2
 
